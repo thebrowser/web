@@ -1,45 +1,173 @@
 ---
 layout: page_markdown
 title: Download
-heading: Alpha for Linux
-community_snippet_intro: Want to contribute to our private alpha?
+heading: Download
+community_snippet_intro: Want to help form our products?
 ---
+  
+<!-- dev progress -->
+<div class="ui segment padding-bottom-20" style="border: none;">
+  <h3>Current Status</h3>
+  <img class="ui fluid image" src="/assets/img/dev_progress.png">
 
-<div class="ui doubling grid container" id="download">
-  <div class="centered row">
-    <div class="thirteen wide column">
-      <div class="ui three stackable cards">
-        <a class="card" href="/technology#portmaster">
-          <div class="content">
-            <p>Explore the mechanics behind Portmaster</p>
+  <span class="ui small text">
+    <strong>Alpha:</strong> Only recommended for technical people, as there will be many problems and manual configuration is necessary.
+    <br>
+    <strong>Beta:</strong> Software has matured and should work for most people. Caution is still advised, as edge cases may break functionality. Expected to reach in 2020.
+    <br>
+    <strong>Stable:</strong> Sofware is battle test and performs as expected in all environments. Expected to reach in 2021.
+  </span>
+</div>
+
+<!-- full support -->
+<div class="ui four doubling stackable cards">
+
+  <!-- Windows 10 -->
+  <div class="card">
+    <div class="content">
+      <h4 class="ui center aligned icon header">
+        <i class="windows icon" style="color: #0072C6"></i>
+        <div class="content">
+          <p>
+            Windows 10
+          </p>
+          <div class="sub header" style="font-size: 0.7rem;">
+            Full support for Windows 10 and newer.
+            See below for older versions.
           </div>
-          <div class="extra content">
-            <button class='ui safing-secondary button'>
-              Technical Details
-            </button>
+        </div>
+      </h4>
+    </div>
+    <a href="https://updates.safing.io/latest/windows_amd64/packages/portmaster-installer.exe" target="_blank" class="ui bottom attached button" style="color: rgba(0,0,0,.9); background-color: #0072C6">
+      <i class="download icon"></i>
+      Installer
+    </a>
+  </div>
+
+  <!-- macOS -->
+  <div class="card">
+    <div class="content">
+      <h4 class="ui center aligned icon header">
+        <i class="apple icon"></i>
+        <div class="content">
+          <p>
+            macOS
+          </p>
+          <div class="sub header" style="font-size: 0.7rem;">
+            coming 2020
           </div>
-        </a>
-        <a class="ui raised card" href='https://github.com/Safing/portmaster/releases/' target="_blank">
-          <div class="content">
-            <p>Visit our Github to download the latest release</p>
+        </div>
+      </h4>
+    </div>
+    <a href="/newsletter" class="ui bottom attached button">
+      <i class="envelope open outline icon"></i>
+      Join Newsletter
+    </a>
+  </div>
+
+  <!-- Ubuntu -->
+  <div class="card">
+    <div class="content">
+      <h4 class="ui center aligned icon header">
+        <i class="ubuntu icon" style="color: #E95420"></i>
+        <div class="content">
+          <p>
+            Ubuntu
+          </p>
+          <div class="sub header" style="font-size: 0.7rem;">
+            Full support for Ubuntu 18.04 and newer.
+            See below for other Linux versions.
           </div>
-          <div class="extra content">
-            <button class='ui safing-primary button'>
-              Download from&nbsp;&nbsp;<i class="ui github icon"></i>
-            </button>
+        </div>
+      </h4>
+    </div>
+    <a href="https://updates.safing.io/latest/linux_amd64/packages/portmaster-installer.deb" target="_blank" class="ui bottom attached button" style="color: rgba(0,0,0,.9); background-color: #E95420">
+      <i class="download icon"></i>
+      .deb package
+    </a>
+  </div>
+
+  <!-- Smartphones -->
+  <div class="card">
+    <div class="content">
+      <h4 class="ui center aligned icon header">
+        <i class="mobile alternate icon"></i>
+        <div class="content">
+          <p>
+            Smartphones
+          </p>
+          <div class="sub header" style="font-size: 0.7rem;">
+            coming 2021
           </div>
-        </a>
-        <a class="card" href='/portmaster'>
-          <div class="content">
-            <p>Discover what Portmaster has to offer</p>
+        </div>
+      </h4>
+    </div>
+    <a href="/newsletter" class="ui bottom attached button">
+      <i class="envelope open outline icon"></i>
+      Join Newsletter
+    </a>
+  </div>
+  
+</div>
+
+<!-- limited support -->
+<h3 class="ui left aligned header padding-top-60">
+  Limited Support
+  <div class="sub header" style="font-size: 0.7rem;">
+    The following platforms currently only receive limited support. This means that not all features may be available and especially UI components may be impaired or completely broken. Additionally, issues with these platforms are handled with a lower priority. We provide workarounds where we can.<br>
+    While we aim to fully support these platforms as soon as we can, we do not have the resources to do so at the moment.<br>
+    If your platform is not listed, or you think that it is underrepresented, please contact us!
+  </div>
+</h3>
+
+<div class="ui four doubling stackable cards">
+
+  <!-- Windows 7, 8 -->
+  <div class="card">
+    <div class="content">
+      <h4 class="ui center aligned icon header">
+        <i class="windows icon"></i>
+        <div class="content">
+          <p>
+            Windows 7, 8
+          </p>
+          <div class="sub header" style="font-size: 0.7rem;">
+            Core fully functional and supported.<br>
+            Notifications and Prompts are not implemented. For the best experience, do not use the Prompt flag until a workaround is available.
           </div>
-          <div class="extra content">
-            <button class='ui safing-secondary button'>
-              Feature Tour
-            </button>
+        </div>
+      </h4>
+    </div>
+    <button class="ui bottom attached button">
+      <i class="download icon"></i>
+      Installer
+    </button>
+  </div>
+
+  <!-- Linux 2.4+ -->
+  <div class="card">
+    <div class="content">
+      <h4 class="ui center aligned icon header">
+        <i class="linux icon"></i>
+        <div class="content">
+          <p>
+            Linux 2.4+
+          </p>
+          <div class="sub header" style="font-size: 0.7rem;">
+            Core fully functional and supported.<br>
+            Desktop environment integration varies heavily. Currently only packaged for Debian and it's derivatives.<br>
+            <a href="#">Manual installation instructions</a>.
           </div>
-        </a>
-      </div>
+        </div>
+      </h4>
+    </div>
+    <div class="ui bottom attached button">
+      <i class="download icon"></i>
+      .deb package
     </div>
   </div>
+
 </div>
+
+<!-- spacer -->
+<div class="padding-bottom-40"></div>
