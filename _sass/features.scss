@@ -1,0 +1,35 @@
+.features{
+    color: black;
+    height: 55vh;
+    display: grid;
+    grid-auto-columns: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row: 0;
+    grid-column: 1/4;
+    align-items: center;
+    justify-self: center;
+}
+
+.features div{
+    width: 450px; 
+}
+
+.features div img{
+    width: 2rem;
+}
+
+.features div div{
+    padding-top: 1rem;
+}
+
+.features div div span{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.features div div p{
+    font-size: 1.1rem;
+    padding-top: 1rem;
+    width: 350px;
+    opacity: 0.5;
+}
