@@ -11,7 +11,7 @@
 }
 
 .features div{
-    width: 450px; 
+    width: 450px;
 }
 
 .features div img{
@@ -32,4 +32,26 @@
     padding-top: 1rem;
     width: 350px;
     opacity: 0.5;
+}
+
+@media (max-width: 575.98px){
+
+    .features{
+        height: 125vh;
+        grid-template-columns: 1fr;
+        grid-column: 1/3;
+    }
+
+    .features div{
+        width: 100%;
+        padding-top: 2rem;
+    }
+
+    .features div{
+        text-align: center;
+    }
+
+    .features div div p{
+        width: 100%;
+    }
 }

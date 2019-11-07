@@ -17,9 +17,8 @@
         </ul>
         <ul>
             <span>Social</span>
-            {% for community in site.communities %}
-            <li><a href="{{ community.url }}"><i class="{{ community.icon }} icon"></i>{{ community.name}}</a></li>
-            {% endfor %}
+            <li><a href="{{ site.podcast_url }}">Overview</a></li>
+            <li><a href="{{ site.podcast_feed_url }}">RSS</a></li>
         </ul>
     </div>
     <div class="legal">

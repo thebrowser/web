@@ -58,3 +58,17 @@ nav ul li a:hover{
     opacity: 1;
     text-decoration: none;
 }
+
+@media (max-width: 575.98px){
+
+    nav a{
+     padding-right: 1vh;
+     margin-left: 2vh;
+    }
+
+    nav li{
+        list-style-type: none;
+        padding-left: 0;
+        padding-right: 0.5vh;
+    }
+}

@@ -40,7 +40,6 @@ footer .list{
     display: flex;
     align-items: center;
     justify-self: center;
-
 }
 
 footer .list ul{
@@ -86,3 +85,39 @@ footer .legal ul li{
     padding-left: 2rem;
     list-style-type: none;
 } 
+
+@media (max-width: 575.98px) {
+
+    footer{
+        height: 45vh;
+        border-top-style: solid;
+        border-top-width: 8rem;
+    }
+
+    footer .list ul{
+        padding-top: 2rem;
+        padding-left: 6rem;
+    }
+
+    footer .legal{
+        padding-top: 3rem;
+    } 
+
+    footer .list ul{
+        padding-left: 0rem;
+        padding-right: 3rem;
+
+    }
+
+    .f-bg{
+        background-image: none;
+    }
+
+    footer .list{
+        display: block;
+        align-items: center;
+        justify-self: center;
+    }
+
+
+}

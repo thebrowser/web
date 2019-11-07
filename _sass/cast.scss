@@ -1,6 +1,6 @@
 content .cast{
     color: black;
-    height: 85vh;
+    height: 105vh;
     display: grid;
     grid-auto-columns: auto;
     grid-template-columns:1fr 1fr;
@@ -46,8 +46,8 @@ content .cast .c-l a div{
 }
 
 content .cast .c-l a img{
-    width: 6rem;
-    height: auto;
+    width: 100px;
+    height: 100px;
 }
 
 content .cast .c-l a div p{
@@ -55,28 +55,9 @@ content .cast .c-l a div p{
     opacity: 0.5;
 }
 
-
-
-
-
-
-
-.cast-audio img{
-    
-}
-
-.cast-audio div{
-    padding-top: 1rem;
-    padding-left: 2rem;
-}
-
-.cast-audio div p{
-    padding-top: 0.5rem;
-    opacity: 0.5;
-}
-
 content .cast .c-l img{
-    
+
+
 }
 
 content .cast .c-r{
@@ -94,4 +75,44 @@ content .cast .c-r p{
     padding-top: 1rem;
     width: 350px;
     opacity: 0.5;
+}
+
+@media (max-width: 575.98px) {
+    content .cast{
+        grid-template-columns:1fr;
+        margin-top: -100px;
+        height: 155vh;
+    }
+
+    content .cast .c-l{
+        grid-row: 2;
+        padding-right: 0rem;
+        align-items: center;
+        justify-self: center;
+    }
+
+    content .cast .c-l a div{
+        padding-top: 0rem;
+    }
+
+    content .cast .c-r{
+        padding-left: 0rem;
+        align-items: center;
+        justify-self: center;
+        text-align: center;
+    }
+
+    content .cast .c-r h1{
+        font-size: 3rem;
+        width: 100%;
+        padding-bottom: 2rem;
+    }
+    
+    content .cast .c-r p{
+        font-size: 1.1rem;
+        padding-top: 1rem;
+        width: 100%;
+        opacity: 0.5;
+        
+    }
 }
